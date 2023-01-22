@@ -699,7 +699,6 @@ img {
 
 .portfolio-container{
     min-height: 100vh;
-    padding: 5px 100px 100px 100px;
     margin-top: 30px;
     display: grid;
     place-items: center;
@@ -712,8 +711,8 @@ img {
 }
 .portfolio .item{
     position: relative;
-    width: auto;
-    height: 180px;
+    width: 300px;
+    height: 300px;
     margin: 5px;
 }
 .portfolio .item img{
@@ -806,13 +805,12 @@ img {
     .skills-container{
 		grid-template-columns: repeat(4, 1fr);
 	}
+    .portfolio-container{
+        padding: 5px 100px 100px 100px; 
+    }
     .portfolio{
         grid-template-columns: repeat(2, 1fr);
     }
-    .portfolio .item{
-        width: 300px;
-        height: 300px;
-
     /* Footer */
     .mainFooter h1{
         display: block;
