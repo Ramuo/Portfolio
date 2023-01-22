@@ -712,7 +712,7 @@ img {
 }
 .portfolio .item{
     position: relative;
-    width: 200px;
+    width: auto;
     height: 200px;
     margin: 5px;
 }
