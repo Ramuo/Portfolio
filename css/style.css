@@ -388,7 +388,7 @@ a:focus,
 .main-skill-container{
     background: #f4f4f4;
     padding: 40px;
-    overflow: hidden;
+    //overflow: hidden;
 }
 
 .first-skills-container h2{
@@ -607,8 +607,8 @@ img {
 }
 .portfolio .item{
     position: relative;
-    width: auto;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin: 5px;
 }
 .portfolio .item img{
@@ -704,6 +704,9 @@ img {
     .portfolio{
         grid-template-columns: repeat(2, 1fr);
     }
+    .portfolio .item{
+        width: 300px;
+        height: 300px;
 
     /* Footer */
     .mainFooter h1{
