@@ -218,14 +218,19 @@ a:focus,
 }
 /* END SIDEBAR MENU */
 
+.welcome{
+    background: url('/images/showcase.jpg') center center  no-repeat fixed; 
+    background-size: cover;
+    min-height: 100vh;
+}
 .accueilPage{
-    background-color: #ecf0f1;
+    background-color: var( --tWhite);
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 90vh;
+    min-height: 100vh;
     overflow: hidden;
     max-width: 960px; 
     margin: auto;
@@ -239,7 +244,8 @@ img {
     border-radius: 10px;
     overflow: hidden;
     width: 350px;
-    margin-top: 5px;
+    margin: 50px 0 50px;
+    position: fixed;
   }
   
   .card-header {
@@ -321,7 +327,6 @@ img {
     }
   }
 // end 
-
 
 /* ABOUT */
 .about-bg-light{
