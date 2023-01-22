@@ -244,7 +244,8 @@ img {
     border-radius: 10px;
     overflow: hidden;
     width: 350px;
-    margin: 50px 0 50px;
+    margin-top: 100px;
+    margin-bottom: 60px;
     position: fixed;
   }
   
