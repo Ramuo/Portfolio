@@ -741,7 +741,7 @@ img {
 .portfolio .item:hover .action{
     opacity: 0;
 }
-.portfolio .item .action a{
+.portfolio .item .action p{
     display: inline-block;
     color: #fff;
     text-decoration: none;
