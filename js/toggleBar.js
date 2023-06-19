@@ -3,6 +3,7 @@ const navBtn = document.querySelector("#menuToggle");
 const closeBtn = document.querySelector("#close-btn");
 const loading = document.getElementById('loading')
 
+
 // nav sticky nav on scroll
 window.addEventListener('scroll',fixNav, false);
 
@@ -23,3 +24,6 @@ navBtn.addEventListener("click", function () {
     sidebar.classList.remove("show-sidebar");
   });
 
+
+
+ 
