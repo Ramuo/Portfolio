@@ -19,7 +19,7 @@ function getData() {
   profile_img.innerHTML =
     '<img src="/images/profileImg.jpg" alt="" />'
   name.innerHTML = 'Alpha BARRY'
-  date.innerHTML = '2022 - 2023'
+  date.innerHTML = '2023 - 2024'
 
   animated_bgs.forEach((bg) => bg.classList.remove('animated-bg'))
   animated_bg_texts.forEach((bg) => bg.classList.remove('animated-bg-text'))
